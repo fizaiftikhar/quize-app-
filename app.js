@@ -80,37 +80,6 @@ function checkAnswer(correct, selected) {
 
 renderQuestion();
 
-/* let CurrentQuestion = document.getElementById(CurrentQuestion)
-let displayQuestion = document.getElementById(displayQuestion)
-let totalQuestion = document.getElementById(totalQuestion)
-let OptionContainer = document.getElementById(OptionContainer)
-let CurrentQuestionIndex = 0;
-function renderQuestion(){
-    let questionObj = que[CurrentQuestionIndex];
-    displayQuestion.innerHTML = questionObj.question
-    totalQuestion.innerHTML = que.length
-    CurrentQuestion.innerHTML = CurrentQuestionIndex + 1
-    console.log(OptionValue)
-
-    for(let i = 0; i < questionObj.optios.length; i++){
-        let OptionValue = questionObj.optios[i];
-        OptionContainer.innerHTML +=  `<div onclick="checkanswer('${questionObj.answer}','${OptionValue}')" class="p-2 bg-blue-500 text-black">
-            option</div>`
-    }
-
-}
-
-function checkAnswer(a, b){
-    if (a === b){
-        mark++;
-    }
-}
-console.log(marks)
-if(CurrentQuestionIndex === que.length - 1){
-    alert(`your score is ${marks} out of ${que.length}`)
-    return
-} */
-
 
 
 
