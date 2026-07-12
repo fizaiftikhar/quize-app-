@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Modern Quiz App</title>
+
+<script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+
+<body class="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500">
+
+
+<div class="w-[420px] bg-white/20 backdrop-blur-lg p-8 rounded-3xl shadow-2xl border border-white/30">
+
+
+<!-- Heading -->
+
+<h1 class="text-4xl font-extrabold text-white text-center mb-6">
+🧠 Quiz Master
+</h1>
+
+
+<!-- Progress -->
+
+<div class="w-full bg-white/30 rounded-full h-3 mb-6">
+
+<div id="progress"
+class="bg-yellow-300 h-3 rounded-full w-0 transition-all">
+</div>
+
+</div>
+
+
+
+<div id="quizBox"
+class="bg-white rounded-3xl p-6 shadow-xl">
+
+
+<h2 id="question"
+class="text-xl font-bold text-gray-800 mb-6">
+Question
+</h2>
+
+
+
+<div id="options"
+class="space-y-4">
+
+</div>
+
+
+
+<button id="nextBtn"
+
+class="hidden mt-6 w-full bg-gradient-to-r from-indigo-500 to-purple-600 text-white py-3 rounded-xl font-semibold hover:scale-105 transition">
+
+Next Question ➜
+
+</button>
+
+
+</div>
+
+
+
+<!-- Result -->
+
+<div id="result"
+class="hidden bg-white rounded-3xl p-8 text-center shadow-xl">
+
+
+<h2 class="text-3xl font-bold text-purple-600">
+🎉 Completed
+</h2>
+
+
+<p id="score"
+class="text-xl mt-5 font-semibold">
+</p>
+
+
+
+<button onclick="location.reload()"
+
+class="mt-6 bg-green-500 hover:bg-green-600 text-white px-8 py-3 rounded-xl">
+
+Restart 🔄
+
+</button>
+
+
+</div>
+
+
+</div>
+<script src="quize.js"></script>
+
+</body>
+</html>
